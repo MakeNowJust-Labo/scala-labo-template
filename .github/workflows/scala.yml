@@ -12,7 +12,7 @@ jobs:
         run: sbt test
         env:
           GITHUB_TOKEN: ""
-      - name: Format
-        run: sbt scalafmtCheckAll scalafmtSbtCheck
+      - name: Format and Lint
+        run: sbt scalafmtCheckAll scalafmtSbtCheck 'scalafixAll --check'
         env:
           GITHUB_TOKEN: ""
