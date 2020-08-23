@@ -1,4 +1,4 @@
-# scala-labo-template
+# template-scala
 
 > MakeNowJust-Labo's Scala project template.
 
