@@ -25,7 +25,6 @@ lazy val root = project
     organization := "codes.quine.labo",
     name := "template",
     version := "0.1.0-SNAPSHOT",
-    description := "MakeNowJust-Labo's Scala project template",
     console / initialCommands := """
       |import codes.quine.labo.template._
       """.stripMargin,
