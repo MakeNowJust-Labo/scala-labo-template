@@ -1,7 +1,6 @@
 Global / onChangedBuildSource := ReloadOnSourceChanges
 
-ThisBuild / githubOwner := "MakeNowJust-Labo"
-ThisBuild / githubRepository := "template-scala"
+ThisBuild / organization := "codes.quine.labo"
 
 ThisBuild / scalaVersion := "2.13.3"
 ThisBuild / scalacOptions ++= Seq(
@@ -22,9 +21,7 @@ ThisBuild / scalafixDependencies += "com.github.vovapolu" %% "scaluzzi" % "0.1.1
 lazy val root = project
   .in(file("."))
   .settings(
-    organization := "codes.quine.labo",
     name := "template",
-    version := "0.1.0-SNAPSHOT",
     console / initialCommands := """
       |import codes.quine.labo.template._
       """.stripMargin,
