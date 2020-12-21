@@ -33,6 +33,6 @@ lazy val root = project
       .map(_ -> url(s"http://www.scala-lang.org/api/${scalaVersion.value}/"))
       .toMap,
     // Settings for test:
-    libraryDependencies += "org.scalameta" %% "munit" % "0.7.19" % Test,
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.20" % Test,
     testFrameworks += new TestFramework("munit.Framework")
   )
